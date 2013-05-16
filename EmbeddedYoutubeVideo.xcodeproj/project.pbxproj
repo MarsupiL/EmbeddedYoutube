@@ -21,6 +21,9 @@
 		58A086D315BA15080023A8A0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A086B815BA15070023A8A0 /* CoreData.framework */; };
 		58A086DB15BA15080023A8A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58A086D915BA15080023A8A0 /* InfoPlist.strings */; };
 		58A086DE15BA15080023A8A0 /* EmbeddedYoutubeVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A086DD15BA15080023A8A0 /* EmbeddedYoutubeVideoTests.m */; };
+		58A086E815BA15520023A8A0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A086E715BA15520023A8A0 /* Storyboard.storyboard */; };
+		58A086EB15BA15BE0023A8A0 /* tableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A086EA15BA15BE0023A8A0 /* tableCell.m */; };
+		58A086EE15BA16B20023A8A0 /* TableClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A086ED15BA16B20023A8A0 /* TableClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,19 +42,24 @@
 		58A086B415BA15070023A8A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58A086B615BA15070023A8A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		58A086B815BA15070023A8A0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		58A086BC15BA15070023A8A0 /* EmbeddedYoutubeVideo-Info.plist */ = {isa = PBXFileReference; path = "EmbeddedYoutubeVideo-Info.plist"; sourceTree = "<group>"; };
+		58A086BC15BA15070023A8A0 /* EmbeddedYoutubeVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedYoutubeVideo-Info.plist"; sourceTree = "<group>"; };
 		58A086BE15BA15070023A8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58A086C015BA15070023A8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		58A086C215BA15070023A8A0 /* EmbeddedYoutubeVideo-Prefix.pch */ = {isa = PBXFileReference; path = "EmbeddedYoutubeVideo-Prefix.pch"; sourceTree = "<group>"; };
-		58A086C315BA15070023A8A0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		58A086C215BA15070023A8A0 /* EmbeddedYoutubeVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmbeddedYoutubeVideo-Prefix.pch"; sourceTree = "<group>"; };
+		58A086C315BA15070023A8A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58A086C415BA15070023A8A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58A086C715BA15080023A8A0 /* EmbeddedYoutubeVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmbeddedYoutubeVideo.xcdatamodel; sourceTree = "<group>"; };
 		58A086CE15BA15080023A8A0 /* EmbeddedYoutubeVideoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbeddedYoutubeVideoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A086CF15BA15080023A8A0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		58A086D815BA15080023A8A0 /* EmbeddedYoutubeVideoTests-Info.plist */ = {isa = PBXFileReference; path = "EmbeddedYoutubeVideoTests-Info.plist"; sourceTree = "<group>"; };
+		58A086D815BA15080023A8A0 /* EmbeddedYoutubeVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedYoutubeVideoTests-Info.plist"; sourceTree = "<group>"; };
 		58A086DA15BA15080023A8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		58A086DC15BA15080023A8A0 /* EmbeddedYoutubeVideoTests.h */ = {isa = PBXFileReference; path = EmbeddedYoutubeVideoTests.h; sourceTree = "<group>"; };
+		58A086DC15BA15080023A8A0 /* EmbeddedYoutubeVideoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedYoutubeVideoTests.h; sourceTree = "<group>"; };
 		58A086DD15BA15080023A8A0 /* EmbeddedYoutubeVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedYoutubeVideoTests.m; sourceTree = "<group>"; };
+		58A086E715BA15520023A8A0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		58A086E915BA15BE0023A8A0 /* tableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableCell.h; sourceTree = "<group>"; };
+		58A086EA15BA15BE0023A8A0 /* tableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableCell.m; sourceTree = "<group>"; };
+		58A086EC15BA16B20023A8A0 /* TableClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableClass.h; sourceTree = "<group>"; };
+		58A086ED15BA16B20023A8A0 /* TableClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,11 @@
 		58A086A315BA15070023A8A0 = {
 			isa = PBXGroup;
 			children = (
+				58A086E715BA15520023A8A0 /* Storyboard.storyboard */,
+				58A086EC15BA16B20023A8A0 /* TableClass.h */,
+				58A086ED15BA16B20023A8A0 /* TableClass.m */,
+				58A086E915BA15BE0023A8A0 /* tableCell.h */,
+				58A086EA15BA15BE0023A8A0 /* tableCell.m */,
 				58A086BA15BA15070023A8A0 /* EmbeddedYoutubeVideo */,
 				58A086D615BA15080023A8A0 /* EmbeddedYoutubeVideoTests */,
 				58A086B115BA15070023A8A0 /* Frameworks */,
@@ -224,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A086BF15BA15070023A8A0 /* InfoPlist.strings in Resources */,
+				58A086E815BA15520023A8A0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +275,8 @@
 				58A086C115BA15070023A8A0 /* main.m in Sources */,
 				58A086C515BA15070023A8A0 /* AppDelegate.m in Sources */,
 				58A086C815BA15080023A8A0 /* EmbeddedYoutubeVideo.xcdatamodeld in Sources */,
+				58A086EB15BA15BE0023A8A0 /* tableCell.m in Sources */,
+				58A086EE15BA16B20023A8A0 /* TableClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
