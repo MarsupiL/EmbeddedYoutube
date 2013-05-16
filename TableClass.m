@@ -70,7 +70,7 @@
     //youtube video
     NSString *videoUrl = @"http://youtu.be/wnq6FWv07E8";
     
-    NSLog(@"something else");
+    NSLog(@"something again");
     
     //embedding information, into which you also should pass the width/height for the video
     NSString *htmlString = [NSString stringWithFormat:@"<html><head><meta name = \"viewport\" content = \"initial-scale = 1.0, user-scalable = no, width = 212\"/></head><body style=\"background:#F00;margin-top:0px;margin-left:0px\"><div><object width=\"%d\" height=\"%d\"><param name=\"movie\" value=\"%@\"></param><param name=\"wmode\" value=\"transparent\"></param><embed src=\"%@\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"%d\" height=\"%d\"></embed></object></div></body></html>",280,158, videoUrl,videoUrl,280,158];
